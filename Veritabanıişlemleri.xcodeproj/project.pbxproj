@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04A5C3529F7FE0600615E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C3429F7FE0600615E34 /* AppDelegate.swift */; };
+		F04A5C3729F7FE0600615E34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C3629F7FE0600615E34 /* SceneDelegate.swift */; };
+		F04A5C3929F7FE0600615E34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C3829F7FE0600615E34 /* ViewController.swift */; };
+		F04A5C3C29F7FE0600615E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04A5C3A29F7FE0600615E34 /* Main.storyboard */; };
+		F04A5C3E29F7FE0800615E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04A5C3D29F7FE0800615E34 /* Assets.xcassets */; };
+		F04A5C4129F7FE0800615E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04A5C3F29F7FE0800615E34 /* LaunchScreen.storyboard */; };
+		F04A5C4C29F7FE0800615E34 /* Veritaban_is_lemleriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C4B29F7FE0800615E34 /* Veritaban_is_lemleriTests.swift */; };
+		F04A5C5629F7FE0800615E34 /* Veritaban_is_lemleriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C5529F7FE0800615E34 /* Veritaban_is_lemleriUITests.swift */; };
+		F04A5C5829F7FE0800615E34 /* Veritaban_is_lemleriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C5729F7FE0800615E34 /* Veritaban_is_lemleriUITestsLaunchTests.swift */; };
+		F04A5C7429F7FEB000615E34 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C6829F7FEAD00615E34 /* FMDatabasePool.m */; };
+		F04A5C7529F7FEB000615E34 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C6A29F7FEAE00615E34 /* FMDatabaseAdditions.m */; };
+		F04A5C7629F7FEB000615E34 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C6B29F7FEAE00615E34 /* FMResultSet.m */; };
+		F04A5C7729F7FEB000615E34 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C6D29F7FEAE00615E34 /* FMDatabaseQueue.m */; };
+		F04A5C7829F7FEB000615E34 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F04A5C6F29F7FEAF00615E34 /* FMDatabase.m */; };
+		F04A5C7A29F802F900615E34 /* veritabanı.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F04A5C7929F802F900615E34 /* veritabanı.sqlite */; };
+		F050B9E029F9147D00DE6EB3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F04A5C6529F7FE1E00615E34 /* libsqlite3.tbd */; };
+		F050B9E229F9191200DE6EB3 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F050B9E129F9191200DE6EB3 /* Util.swift */; };
+		F050B9E429F91E7B00DE6EB3 /* kişiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F050B9E329F91E7B00DE6EB3 /* kişiler.swift */; };
+		F050B9E629F9201300DE6EB3 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F050B9E529F9201300DE6EB3 /* ModelManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F04A5C4829F7FE0800615E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04A5C2929F7FE0600615E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04A5C3029F7FE0600615E34;
+			remoteInfo = "Veritabanıişlemleri";
+		};
+		F04A5C5229F7FE0800615E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04A5C2929F7FE0600615E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04A5C3029F7FE0600615E34;
+			remoteInfo = "Veritabanıişlemleri";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F04A5C3129F7FE0600615E34 /* Veritabanıişlemleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veritabanıişlemleri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04A5C3429F7FE0600615E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F04A5C3629F7FE0600615E34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F04A5C3829F7FE0600615E34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F04A5C3B29F7FE0600615E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F04A5C3D29F7FE0800615E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F04A5C4029F7FE0800615E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F04A5C4229F7FE0800615E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04A5C4729F7FE0800615E34 /* VeritabanıişlemleriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VeritabanıişlemleriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04A5C4B29F7FE0800615E34 /* Veritaban_is_lemleriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veritaban_is_lemleriTests.swift; sourceTree = "<group>"; };
+		F04A5C5129F7FE0800615E34 /* VeritabanıişlemleriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VeritabanıişlemleriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04A5C5529F7FE0800615E34 /* Veritaban_is_lemleriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veritaban_is_lemleriUITests.swift; sourceTree = "<group>"; };
+		F04A5C5729F7FE0800615E34 /* Veritaban_is_lemleriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veritaban_is_lemleriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F04A5C6529F7FE1E00615E34 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F04A5C6629F7FEAD00615E34 /* Veritabanıişlemleri-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Veritabanıişlemleri-Bridging-Header.h"; sourceTree = "<group>"; };
+		F04A5C6729F7FEAD00615E34 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		F04A5C6829F7FEAD00615E34 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		F04A5C6929F7FEAE00615E34 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		F04A5C6A29F7FEAE00615E34 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F04A5C6B29F7FEAE00615E34 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		F04A5C6D29F7FEAE00615E34 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F04A5C6E29F7FEAF00615E34 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		F04A5C6F29F7FEAF00615E34 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		F04A5C7029F7FEAF00615E34 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F04A5C7129F7FEAF00615E34 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		F04A5C7229F7FEB000615E34 /* SQLlite-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SQLlite-Bridging-Header.h"; sourceTree = "<group>"; };
+		F04A5C7329F7FEB000615E34 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F04A5C7929F802F900615E34 /* veritabanı.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "veritabanı.sqlite"; sourceTree = "<group>"; };
+		F050B9E129F9191200DE6EB3 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		F050B9E329F91E7B00DE6EB3 /* kişiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "kişiler.swift"; sourceTree = "<group>"; };
+		F050B9E529F9201300DE6EB3 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04A5C2E29F7FE0600615E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F050B9E029F9147D00DE6EB3 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04A5C4429F7FE0800615E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04A5C4E29F7FE0800615E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04A5C2829F7FE0600615E34 = {
+			isa = PBXGroup;
+			children = (
+				F04A5C3329F7FE0600615E34 /* Veritabanıişlemleri */,
+				F04A5C4A29F7FE0800615E34 /* VeritabanıişlemleriTests */,
+				F04A5C5429F7FE0800615E34 /* VeritabanıişlemleriUITests */,
+				F04A5C3229F7FE0600615E34 /* Products */,
+				F04A5C6429F7FE1D00615E34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F04A5C3229F7FE0600615E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04A5C3129F7FE0600615E34 /* Veritabanıişlemleri.app */,
+				F04A5C4729F7FE0800615E34 /* VeritabanıişlemleriTests.xctest */,
+				F04A5C5129F7FE0800615E34 /* VeritabanıişlemleriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04A5C3329F7FE0600615E34 /* Veritabanıişlemleri */ = {
+			isa = PBXGroup;
+			children = (
+				F04A5C7929F802F900615E34 /* veritabanı.sqlite */,
+				F04A5C6729F7FEAD00615E34 /* FMDatabase.h */,
+				F04A5C6F29F7FEAF00615E34 /* FMDatabase.m */,
+				F04A5C7329F7FEB000615E34 /* FMDatabaseAdditions.h */,
+				F04A5C6A29F7FEAE00615E34 /* FMDatabaseAdditions.m */,
+				F04A5C6E29F7FEAF00615E34 /* FMDatabasePool.h */,
+				F04A5C6829F7FEAD00615E34 /* FMDatabasePool.m */,
+				F04A5C7029F7FEAF00615E34 /* FMDatabaseQueue.h */,
+				F04A5C6D29F7FEAE00615E34 /* FMDatabaseQueue.m */,
+				F04A5C7129F7FEAF00615E34 /* FMDB.h */,
+				F04A5C6929F7FEAE00615E34 /* FMResultSet.h */,
+				F04A5C6B29F7FEAE00615E34 /* FMResultSet.m */,
+				F04A5C7229F7FEB000615E34 /* SQLlite-Bridging-Header.h */,
+				F04A5C3429F7FE0600615E34 /* AppDelegate.swift */,
+				F04A5C3629F7FE0600615E34 /* SceneDelegate.swift */,
+				F04A5C3829F7FE0600615E34 /* ViewController.swift */,
+				F04A5C3A29F7FE0600615E34 /* Main.storyboard */,
+				F04A5C3D29F7FE0800615E34 /* Assets.xcassets */,
+				F04A5C3F29F7FE0800615E34 /* LaunchScreen.storyboard */,
+				F04A5C4229F7FE0800615E34 /* Info.plist */,
+				F04A5C6629F7FEAD00615E34 /* Veritabanıişlemleri-Bridging-Header.h */,
+				F050B9E129F9191200DE6EB3 /* Util.swift */,
+				F050B9E329F91E7B00DE6EB3 /* kişiler.swift */,
+				F050B9E529F9201300DE6EB3 /* ModelManager.swift */,
+			);
+			path = "Veritabanıişlemleri";
+			sourceTree = "<group>";
+		};
+		F04A5C4A29F7FE0800615E34 /* VeritabanıişlemleriTests */ = {
+			isa = PBXGroup;
+			children = (
+				F04A5C4B29F7FE0800615E34 /* Veritaban_is_lemleriTests.swift */,
+			);
+			path = "VeritabanıişlemleriTests";
+			sourceTree = "<group>";
+		};
+		F04A5C5429F7FE0800615E34 /* VeritabanıişlemleriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F04A5C5529F7FE0800615E34 /* Veritaban_is_lemleriUITests.swift */,
+				F04A5C5729F7FE0800615E34 /* Veritaban_is_lemleriUITestsLaunchTests.swift */,
+			);
+			path = "VeritabanıişlemleriUITests";
+			sourceTree = "<group>";
+		};
+		F04A5C6429F7FE1D00615E34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F04A5C6529F7FE1E00615E34 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04A5C3029F7FE0600615E34 /* Veritabanıişlemleri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04A5C5B29F7FE0800615E34 /* Build configuration list for PBXNativeTarget "Veritabanıişlemleri" */;
+			buildPhases = (
+				F04A5C2D29F7FE0600615E34 /* Sources */,
+				F04A5C2E29F7FE0600615E34 /* Frameworks */,
+				F04A5C2F29F7FE0600615E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Veritabanıişlemleri";
+			productName = "Veritabanıişlemleri";
+			productReference = F04A5C3129F7FE0600615E34 /* Veritabanıişlemleri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F04A5C4629F7FE0800615E34 /* VeritabanıişlemleriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04A5C5E29F7FE0800615E34 /* Build configuration list for PBXNativeTarget "VeritabanıişlemleriTests" */;
+			buildPhases = (
+				F04A5C4329F7FE0800615E34 /* Sources */,
+				F04A5C4429F7FE0800615E34 /* Frameworks */,
+				F04A5C4529F7FE0800615E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04A5C4929F7FE0800615E34 /* PBXTargetDependency */,
+			);
+			name = "VeritabanıişlemleriTests";
+			productName = "VeritabanıişlemleriTests";
+			productReference = F04A5C4729F7FE0800615E34 /* VeritabanıişlemleriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F04A5C5029F7FE0800615E34 /* VeritabanıişlemleriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04A5C6129F7FE0800615E34 /* Build configuration list for PBXNativeTarget "VeritabanıişlemleriUITests" */;
+			buildPhases = (
+				F04A5C4D29F7FE0800615E34 /* Sources */,
+				F04A5C4E29F7FE0800615E34 /* Frameworks */,
+				F04A5C4F29F7FE0800615E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04A5C5329F7FE0800615E34 /* PBXTargetDependency */,
+			);
+			name = "VeritabanıişlemleriUITests";
+			productName = "VeritabanıişlemleriUITests";
+			productReference = F04A5C5129F7FE0800615E34 /* VeritabanıişlemleriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04A5C2929F7FE0600615E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F04A5C3029F7FE0600615E34 = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
+					F04A5C4629F7FE0800615E34 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F04A5C3029F7FE0600615E34;
+					};
+					F04A5C5029F7FE0800615E34 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F04A5C3029F7FE0600615E34;
+					};
+				};
+			};
+			buildConfigurationList = F04A5C2C29F7FE0600615E34 /* Build configuration list for PBXProject "Veritabanıişlemleri" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F04A5C2829F7FE0600615E34;
+			productRefGroup = F04A5C3229F7FE0600615E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F04A5C3029F7FE0600615E34 /* Veritabanıişlemleri */,
+				F04A5C4629F7FE0800615E34 /* VeritabanıişlemleriTests */,
+				F04A5C5029F7FE0800615E34 /* VeritabanıişlemleriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04A5C2F29F7FE0600615E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04A5C4129F7FE0800615E34 /* LaunchScreen.storyboard in Resources */,
+				F04A5C3E29F7FE0800615E34 /* Assets.xcassets in Resources */,
+				F04A5C7A29F802F900615E34 /* veritabanı.sqlite in Resources */,
+				F04A5C3C29F7FE0600615E34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04A5C4529F7FE0800615E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04A5C4F29F7FE0800615E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04A5C2D29F7FE0600615E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04A5C7629F7FEB000615E34 /* FMResultSet.m in Sources */,
+				F050B9E429F91E7B00DE6EB3 /* kişiler.swift in Sources */,
+				F050B9E229F9191200DE6EB3 /* Util.swift in Sources */,
+				F04A5C3929F7FE0600615E34 /* ViewController.swift in Sources */,
+				F04A5C7429F7FEB000615E34 /* FMDatabasePool.m in Sources */,
+				F04A5C7729F7FEB000615E34 /* FMDatabaseQueue.m in Sources */,
+				F04A5C3529F7FE0600615E34 /* AppDelegate.swift in Sources */,
+				F050B9E629F9201300DE6EB3 /* ModelManager.swift in Sources */,
+				F04A5C3729F7FE0600615E34 /* SceneDelegate.swift in Sources */,
+				F04A5C7529F7FEB000615E34 /* FMDatabaseAdditions.m in Sources */,
+				F04A5C7829F7FEB000615E34 /* FMDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04A5C4329F7FE0800615E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04A5C4C29F7FE0800615E34 /* Veritaban_is_lemleriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04A5C4D29F7FE0800615E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04A5C5829F7FE0800615E34 /* Veritaban_is_lemleriUITestsLaunchTests.swift in Sources */,
+				F04A5C5629F7FE0800615E34 /* Veritaban_is_lemleriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F04A5C4929F7FE0800615E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04A5C3029F7FE0600615E34 /* Veritabanıişlemleri */;
+			targetProxy = F04A5C4829F7FE0800615E34 /* PBXContainerItemProxy */;
+		};
+		F04A5C5329F7FE0800615E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04A5C3029F7FE0600615E34 /* Veritabanıişlemleri */;
+			targetProxy = F04A5C5229F7FE0800615E34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F04A5C3A29F7FE0600615E34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04A5C3B29F7FE0600615E34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F04A5C3F29F7FE0800615E34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04A5C4029F7FE0800615E34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F04A5C5929F7FE0800615E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F04A5C5A29F7FE0800615E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F04A5C5C29F7FE0800615E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Veritabanıişlemleri/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuf.Veritaban-is-lemleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Veritabanıişlemleri/Veritabanıişlemleri-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F04A5C5D29F7FE0800615E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Veritabanıişlemleri/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuf.Veritaban-is-lemleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Veritabanıişlemleri/Veritabanıişlemleri-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F04A5C5F29F7FE0800615E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuf.Veritaban-is-lemleriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veritabanıişlemleri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veritabanıişlemleri";
+			};
+			name = Debug;
+		};
+		F04A5C6029F7FE0800615E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuf.Veritaban-is-lemleriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veritabanıişlemleri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veritabanıişlemleri";
+			};
+			name = Release;
+		};
+		F04A5C6229F7FE0800615E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuf.Veritaban-is-lemleriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veritabanıişlemleri";
+			};
+			name = Debug;
+		};
+		F04A5C6329F7FE0800615E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusuf.Veritaban-is-lemleriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veritabanıişlemleri";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04A5C2C29F7FE0600615E34 /* Build configuration list for PBXProject "Veritabanıişlemleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04A5C5929F7FE0800615E34 /* Debug */,
+				F04A5C5A29F7FE0800615E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04A5C5B29F7FE0800615E34 /* Build configuration list for PBXNativeTarget "Veritabanıişlemleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04A5C5C29F7FE0800615E34 /* Debug */,
+				F04A5C5D29F7FE0800615E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04A5C5E29F7FE0800615E34 /* Build configuration list for PBXNativeTarget "VeritabanıişlemleriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04A5C5F29F7FE0800615E34 /* Debug */,
+				F04A5C6029F7FE0800615E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04A5C6129F7FE0800615E34 /* Build configuration list for PBXNativeTarget "VeritabanıişlemleriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04A5C6229F7FE0800615E34 /* Debug */,
+				F04A5C6329F7FE0800615E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F04A5C2929F7FE0600615E34 /* Project object */;
+}
